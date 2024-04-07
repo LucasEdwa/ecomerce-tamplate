@@ -1,0 +1,84 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecstus Tech</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+    <link rel="stylesheet" href="style.css"> <!-- Link to your CSS -->
+</head>
+
+<body>
+    <section id="header">
+        <a href="#"><img src="img/ecstuslogo2.png" class="logo1" alt="Tech2etc Logo"></a>
+        <div>
+            <ul id="navbar">
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li id="lg-bag"><a href="cart.html"><i class="fas fa-shopping-bag"></i></a></li>
+                <a href="#" id="close"><i class="fas fa-times"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            
+            <li><a href="cart.html"><i class="fas fa-shopping-bag"></i></a></li>
+            <i id="bar" class="fas fa-outdent"></i>
+            
+        </div>
+    </section>
+<!-- Container for the entire profile -->
+
+<div class="box-profile">
+    
+<div class="profile-container">
+
+    <!-- Profile Overview -->
+    <section class="section-p1 user-profile">
+        
+        <div class="user-details">
+            <div id="pic-progile">
+                <img id="avatar" src="img/banner/b19.jpg" alt="Avatar">
+                </div>
+            
+            <h3>Welcome, <span class="username">[User's Name]</span></h3>
+            <p class="user-email">Email: <span>[User's Email]</span></p>
+        
+        
+        </div>
+    
+    </section>
+    
+
+
+    <!-- Order History -->
+    <section class="section-p1">
+        <h2>Order History</h2>
+        <ul class="order-history">
+            <!-- Dynamic listing of past orders. For example: -->
+            <li>Order #<span class="order-number">[order_number]</span> - Date: <span class="order-date">[order_date]</span> - Total: $<span class="order-total">[order_total]</span></li>
+            <!-- More order items can be populated as needed -->
+        </ul>
+    </section>
+    <div>
+        <button class="normal" onclick="location.href='logout-action.php'">Logout</button>
+    </div>
+</div>
+
+    <div class="profile-container">
+    
+        <!-- Wallet Section -->
+        <section class="section-p1">
+            <h2>Your Wallet</h2>
+            <p>Balance: $<span class="balance">[amount]</span></p>
+            <!-- More wallet functionalities can be added here like 'add funds', 'withdraw funds', etc. -->
+        </section>
+    </div>
+    
+
+</div>
+
+</div>
+
+</body>
+</html>
